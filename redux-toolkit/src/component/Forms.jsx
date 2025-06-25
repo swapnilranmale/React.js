@@ -7,6 +7,7 @@ const schema = Yup.object().shape({
   pass: Yup.string().required("enter pass"),
   cpass: Yup.string().required("enter c pass"),
 });
+
 function Forms() {
   const {
     register,
